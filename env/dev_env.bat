@@ -15,6 +15,7 @@ call vs_env.bat
 call cmake_env.bat
 call ninja_env.bat
 call python_env.bat
+call meson_env.bat
 
 title Dev env
 set PROMPT=[Dev] $P$_$$$S
