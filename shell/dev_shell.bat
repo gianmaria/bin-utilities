@@ -13,13 +13,15 @@ call go_env.bat
 call c3_env.bat
 call java_env.bat
 
-call custom_vs22_env.bat
+::call custom_vs_env.bat
+call vs_env.bat
+
 call cmake_env.bat
 call ninja_env.bat
 call python_env.bat
 :: call meson_env.bat
 
-title Dev env
+::title Dev env
 set PROMPT=[Dev] $P$_$$$S
 
 start "** Dev env **" /D C:\Workspace cmd
