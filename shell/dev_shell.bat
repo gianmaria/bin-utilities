@@ -24,6 +24,6 @@ call python_env.bat
 ::title Dev env
 set PROMPT=[Dev] $P$_$$$S
 
-start "** Dev env **" /D C:\Workspace cmd
+start "** Dev env **" /D %CD% cmd
 
 endlocal
