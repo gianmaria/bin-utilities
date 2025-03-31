@@ -3,7 +3,7 @@
 setlocal
 
 ::echo Setting up Qt
-::call qt_env.bat
+call qt_env.bat
 
 call raddbg_env.bat
 
@@ -22,7 +22,7 @@ call python_env.bat
 :: call meson_env.bat
 
 ::title Dev env
-set PROMPT=[Dev] $P$_$$$S
+set PROMPT=%USERNAME%@%USERDOMAIN%: $P$_$$$S
 
 start "** Dev env **" /D %CD% cmd
 
