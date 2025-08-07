@@ -14,7 +14,8 @@ call c3_env.bat
 call java_env.bat
 
 ::call custom_vs_env.bat
-call vs_env.bat
+::call vs_env.bat
+call C:\Dev\msvc\devcmd.bat
 
 call cmake_env.bat
 call ninja_env.bat
