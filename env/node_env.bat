@@ -1,3 +1,3 @@
 @echo off
 
-C:\Dev\node\nodevars.bat
+call C:\Dev\node\nodevars.bat
